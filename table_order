@@ -1,0 +1,19 @@
+1. create table Orders ( PersonID integer, ProductName string, ProductPrice float, Quantity integer );
+
+2. INSERT INTO Orders ( PersonID, ProductName, ProductPrice, Quantity )
+VALUES ( 13, "jeans", 30, 3);
+
+INSERT INTO Orders ( PersonID, ProductName, ProductPrice, Quantity )
+VALUES ( 20, "TV", 1000, 1);
+
+3. select  * from  Orders;
+
+4. select  SUM(Quantity) 
+   from  Orders;
+
+5. select  SUM(ProductPrice*Quantity) 
+    from  Orders;
+	
+6. select  SUM(ProductPrice*Quantity) 
+   from  Orders
+   where PersonID = 20;
