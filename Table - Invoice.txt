@@ -1,0 +1,15 @@
+1.SELECT Count(*) FROM Invoice WHERE BillingCountry = 'USA';
+
+2. SELECT Max(total) FROM Invoice;
+
+3. SELECT Min(total) FROM Invoice;
+
+4. SELECT * FROM Invoice WHERE Total > 5;
+
+5. SELECT COUNT(*) FROM Invoice WHERE Total < 5;
+
+6. SELECT Count(*) FROM Invoice WHERE BillingState in ('CA', 'TX', 'AZ');
+
+7. SELECT AVG(Total) FROM Invoice;
+
+8. SELECT SUM(Total) FROM Invoice;
