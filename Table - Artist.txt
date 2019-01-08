@@ -1,0 +1,9 @@
+1. INSERT INTO Artist ( NAME ) VALUES ( 'Leonardo da Vinci' );
+
+2. SELECT * FROM Artist ORDER BY NAME Desc LIMIT 10;
+
+3. SELECT * FROM Artist ORDER BY NAME ASC LIMIT 5;
+
+4. SELECT * FROM Artist where NAME LIKE "%Black%";
+
+5. SELECT * FROM Artist WHERE NAME LIKE '%Black%';
